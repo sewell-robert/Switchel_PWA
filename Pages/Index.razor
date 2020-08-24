@@ -1,7 +1,26 @@
 ﻿@page "/"
+@inject IJSRuntime js
 
-<h1>Hello, world!</h1>
+<div class="opener">
+    <h4 id="test">Welcome to the Shawnee Switchel Digital Shop!</h4>
+    <p>Stop by every once and a while to get the latest on what's happening.</p>
+</div>
 
-Welcome to your new app.
+<a href="updates" class="btn btn-dark btn-outline-light mb-2">VIEW UPDATES</a>
+<br />
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<button id="notifications" class="btn btn-dark" hidden>Don't Click ME!</button>
+
+@code {
+
+    protected async override Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await js.InvokeVoidAsync("initializeCounterComponent");
+        }
+    }
+
+}
+
+

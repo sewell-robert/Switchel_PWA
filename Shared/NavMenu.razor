@@ -1,5 +1,12 @@
-﻿<div class="top-row pl-4 navbar navbar-dark">
-    <a class="navbar-brand" href="">Switchel_PWA</a>
+﻿<div class="p-2 navbar navbar-dark">
+    <a class="navbar-brand d-flex flex-row" href="">
+        <div class="flex-column">
+            <img src="/images/logo_2.png" width="50" height="50" />
+        </div>
+        <div class="flex-column pl-1 text-center">
+            Shawnee<br />Switchel
+        </div>
+    </a>
     <button class="navbar-toggler" @onclick="ToggleNavMenu">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,13 +20,13 @@
             </NavLink>
         </li>
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" href="updates">
+                <span class="oi oi-plus" aria-hidden="true"></span> Updates
             </NavLink>
         </li>
         <li class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            <NavLink class="nav-link" href="order">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Place Order
             </NavLink>
         </li>
     </ul>

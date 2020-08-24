@@ -1,0 +1,340 @@
+@page "/order"
+@inject HttpClient Http
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+@inject IJSRuntime JSRuntime;
+
+<h4 class="opener">Choose your switchel:</h4>
+<br />
+
+<button class="btn btn-dark btn-outline-light btn-width" @onclick="@(e => Toggle(e, "classic-switchel"))">Classic Switchel</button>
+<br />
+<br />
+
+<div id="classic-switchel" class="hr-dark" style="display: none">
+    <div class="card border-dark">
+        <div class="card-body">
+            <p>Put description here...</p>
+
+            <hr />
+
+            <form>
+                <div class="form-group">
+                    <label for="formControlRange">Organic Apple Cider Vinegar</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3" disabled>
+                    <br />
+
+                    <label for="formControlRange">Fresh Ginger Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="2" disabled>
+                    <br />
+
+                    <label for="formControlRange">Nutrient-packed Maple</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3" disabled>
+                    <br />
+
+                    <label for="formControlRange">Hand-Squeezed Lemon Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="0" disabled>
+                    <br />
+
+                    <label for="formControlRange">Responsibly Sourced Turmeric</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="0" disabled>
+                    <br />
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Sparkling Water</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Filtered Water</label>
+                    </div>
+                    <br /><br />
+
+                    <label for="formControlRange" class="pb-1">Choose Quantity</label><br />
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">12 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">24 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">33 fluid ounces</label>
+                    </div>
+                    <br /><br />
+
+                    <button class="btn btn-primary" type="submit">Order Classic Switchel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br />
+
+</div>
+
+<button class="btn btn-dark btn-outline-light btn-width" @onclick="@(e => Toggle(e, "lemon-switchel"))">Lemon Switchel</button>
+<br />
+<br />
+
+<div id="lemon-switchel" class="hr-dark" style="display: none">
+    <div class="card border-dark">
+        <div class="card-body">
+            <p>Put description here...</p>
+
+            <hr />
+
+            <form>
+                <div class="form-group">
+                    <label for="formControlRange">Organic Apple Cider Vinegar</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3" disabled>
+                    <br />
+
+                    <label for="formControlRange">Fresh Ginger Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3" disabled>
+                    <br />
+
+                    <label for="formControlRange">Nutrient-packed Maple</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3" disabled>
+                    <br />
+
+                    <label for="formControlRange">Hand-Squeezed Lemon Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3" disabled>
+                    <br />
+
+                    <label for="formControlRange">Responsibly Sourced Turmeric</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="0" disabled>
+                    <br />
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Sparkling Water</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Filtered Water</label>
+                    </div>
+                    <br /><br />
+
+                    <label for="formControlRange" class="pb-1">Choose Quantity</label><br />
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">12 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">24 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">33 fluid ounces</label>
+                    </div>
+                    <br /><br />
+
+                    <button class="btn btn-primary" type="submit">Order Lemon Switchel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br />
+
+</div>
+
+<button class="btn btn-dark btn-outline-light btn-width" @onclick="@(e => Toggle(e, "turmeric-switchel"))">Golden Switchel</button>
+<br />
+<br />
+
+<div id="turmeric-switchel" class="hr-dark" style="display: none">
+    <div class="card border-dark">
+        <div class="card-body">
+            <p>Put description here...</p>
+
+            <hr />
+
+            <form>
+                <div class="form-group">
+                    <label for="formControlRange">Organic Apple Cider Vinegar</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="4" disabled>
+                    <br />
+
+                    <label for="formControlRange">Fresh Ginger Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="2" disabled>
+                    <br />
+
+                    <label for="formControlRange">Nutrient-packed Maple</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="4" disabled>
+                    <br />
+
+                    <label for="formControlRange">Hand-Squeezed Lemon Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="0" disabled>
+                    <br />
+
+                    <label for="formControlRange">Responsibly Sourced Turmeric</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3" disabled>
+                    <br />
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Sparkling Water</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Filtered Water</label>
+                    </div>
+                    <br /><br />
+
+                    <label for="formControlRange" class="pb-1">Choose Quantity</label><br />
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">12 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">24 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">33 fluid ounces</label>
+                    </div>
+                    <br /><br />
+
+                    <button class="btn btn-primary" type="submit">Order Golden Switchel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br />
+
+</div>
+
+<button class="btn btn-dark btn-outline-light btn-width" @onclick="@(e => Toggle(e, "custom-switchel"))">Customize Your Own</button>
+<br />
+<br />
+
+<div id="custom-switchel" class="hr-dark" style="display: none">
+    <div class="card border-dark">
+        <div class="card-body">
+            <p>Put description here...</p>
+
+            <hr />
+
+            <form>
+                <div class="form-group">
+                    <label for="formControlRange">Organic Apple Cider Vinegar</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3">
+                    <br />
+
+                    <label for="formControlRange">Fresh Ginger Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3">
+                    <br />
+
+                    <label for="formControlRange">Nutrient-packed Maple</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3">
+                    <br />
+
+                    <label for="formControlRange">Hand-Squeezed Lemon Juice</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3">
+                    <br />
+
+                    <label for="formControlRange">Responsibly Sourced Turmeric</label>
+                    <input type="range" class="form-control-range" id="formControlRange" min="0" max="6" step="1" value="3">
+                    <br />
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Sparkling Water</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Filtered Water</label>
+                    </div>
+                    <br /><br />
+
+                    <label for="formControlRange" class="pb-1">Choose Quantity</label><br />
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">12 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">24 fluid ounces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">33 fluid ounces</label>
+                    </div>
+                    <br /><br />
+
+                    <button class="btn btn-primary" type="submit">Order Custom Switchel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <br />
+
+</div>
+
+@*<p>This component demonstrates fetching data from the server.</p>
+
+    @if (forecasts == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Temp. (C)</th>
+                    <th>Temp. (F)</th>
+                    <th>Summary</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var forecast in forecasts)
+                {
+                    <tr>
+                        <td>@forecast.Date.ToShortDateString()</td>
+                        <td>@forecast.TemperatureC</td>
+                        <td>@forecast.TemperatureF</td>
+                        <td>@forecast.Summary</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }*@
+
+@code {
+    private WeatherForecast[] forecasts;
+
+    private string visibility = "none";
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+
+        await localStorage.SetItemAsync("name", "John Smith");
+        var name = await localStorage.GetItemAsync<string>("name");
+    }
+
+    private async Task Toggle(MouseEventArgs e, string id)
+    {
+        await JSRuntime.InvokeAsync<object>("toggleVisibility", id);
+    }
+
+    public class WeatherForecast
+    {
+        public DateTime Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}
