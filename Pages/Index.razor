@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject IJSRuntime js
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
 
 <div class="opener">
     <h4 id="test">Welcome to the Shawnee Switchel Digital Shop!</h4>
@@ -7,11 +8,47 @@
 </div>
 
 <a href="updates" class="btn btn-dark btn-outline-light mb-2">VIEW UPDATES</a>
+<a href="order" class="btn btn-outline-light mb-2 ml-auto btn-order">PLACE ORDER</a>
 <br />
+
+<div class="card shadow">
+    <div class="card-body">
+        <h4>Open Orders</h4>
+        <hr />
+        @if (openOrders.Count > 1)
+        {
+            foreach (var order in openOrders)
+            {
+                if (!string.IsNullOrWhiteSpace(order.recipient))
+                {
+                    <p>@order.recipient order for @order.productName was successfully submitted on @order.day!</p><br />
+                }
+            }
+        }
+        else
+        {
+            <p>There are no open orders at this time.</p>
+        }
+    </div>
+</div>
 
 <button id="notifications" class="btn btn-dark" hidden>Don't Click ME!</button>
 
 @code {
+
+    public class OpenOrder
+    {
+        public string recipient { get; set; }
+        public string productName { get; set; }
+        public DateTime day { get; set; }
+        public string status { get; set; }
+    }
+
+    List<OpenOrder> openOrders = new List<OpenOrder>();
+
+    OpenOrder test;
+
+    List<OpenOrder> tests = new List<OpenOrder>();
 
     protected async override Task OnAfterRenderAsync(bool firstRender)
     {
@@ -19,6 +56,27 @@
         {
             await js.InvokeVoidAsync("initializeCounterComponent");
         }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (await localStorage.GetItemAsync<List<OpenOrder>>("openOrders") ==  null)
+        {
+            test = new OpenOrder();
+            test.recipient = " ";
+            test.productName = " ";
+            test.day = DateTime.Today;
+
+            tests.Add(test);
+
+            await localStorage.SetItemAsync("openOrders", tests);
+            var openOrders = await localStorage.GetItemAsync<List<OpenOrder>>("openOrders");
+        }
+        else
+        {
+            openOrders = await localStorage.GetItemAsync<List<OpenOrder>>("openOrders");
+        }
+
     }
 
 }

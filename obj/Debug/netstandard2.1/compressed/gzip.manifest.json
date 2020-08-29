@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7FOJ4Ebyf5IIchg_8bl8DcJPRVcnwqduiLdHPdDC2Uc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BmrX0a5-_wMWQXuK5ByinYIjYehaP-uA73ELW67SV5Q=.hash",
       "Source": "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Switchel_PWA.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Switchel_PWA.dll.gz"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\u5g-mGErfE6uthgGqHCaHHqNIUhK2JeylWU5-AJ06MA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FEnB37Se_7m5Psn22Jt929eYamc3-8b8xMGK-LemibY=.hash",
       "Source": "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Switchel_PWA.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Switchel_PWA.pdb.gz"
     },
@@ -291,12 +291,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TwitP9Ms1dUQUr3OZ0XJpfAOGgoaXhN-6fvZdWsn5Ms=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\VO6B-DKMwZD1booMgOR_qZvKt0ncwlxPoFs3rqtzM9s=.hash",
       "Source": "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kNLAwCvJRPjFOm1ePAfcO1PKue_Tu3J7Wx3xVx96iLY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LX85uZmTW7nClyIz2biIBcEIkgml_0y-dkKx1E1QnDM=.hash",
       "Source": "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.gz"
     }

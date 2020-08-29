@@ -77,6 +77,11 @@
         .level-5 {
             background-color: #ff4d00;
         }
+
+        .btn-order {
+            background-color: #e80889;
+            color: white;
+        }
     </style>
 </head>
 
@@ -97,7 +102,6 @@
     <script src="index.js"></script>
     <script>
         function toggleVisibility(id) {
-
             var text = document.getElementById(id).style.display;
 
             if (text == 'none') {
@@ -106,6 +110,12 @@
             else if (text == 'block') {
                 document.getElementById(id).style.display = 'none';
             }        
+        }
+
+        function getRecipient() {
+            var name = prompt("Who is this order for?", "Enter name");
+
+            return name;
         }
     </script>
 </body>

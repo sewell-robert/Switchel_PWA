@@ -2,6 +2,7 @@
 @inject HttpClient Http
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
 @inject IJSRuntime JSRuntime;
+@inject NavigationManager NavigationManager
 
 <div class="opener">
     <h4>Choose Your Switchel</h4>
@@ -69,7 +70,7 @@
                     <br /><br />
 
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary btn-lg" type="submit">Place Order</button>
+                        <a class="btn btn-outline-light btn-lg btn-order" style="color: white" @onclick="@(e => SubmitOrder(e, "Classic Switchel"))">Place Order</a>
                     </div>
                 </div>
             </form>
@@ -148,7 +149,7 @@
                     <br /><br />
 
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary btn-lg" type="submit">Place Order</button>
+                        <button class="btn btn-outline-light btn-lg btn-order" type="submit">Place Order</button>
                     </div>
                 </div>
             </form>
@@ -217,7 +218,7 @@
                     </div>
                     <br /><br />
 
-                    <button class="btn btn-primary" type="submit">Order Golden Switchel</button>
+                    <button class="btn btn-outline-light btn-lg btn-order" type="submit">Order Golden Switchel</button>
                 </div>
             </form>
         </div>
@@ -299,7 +300,7 @@
                     <br /><br />
 
                     <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary btn-lg" type="submit">Save and Place Order</button>
+                        <button class="btn btn-outline-light btn-lg btn-order" type="submit">Save and Place Order</button>
                     </div>
                 </div>
             </form>
@@ -344,19 +345,42 @@
 @code {
     private WeatherForecast[] forecasts;
 
-    private string visibility = "none";
+    public class OpenOrder
+    {
+        public string recipient { get; set; }
+        public string productName { get; set; }
+        public DateTime day { get; set; }
+        public string status = "Pending";
+    }
+
+    string name;
 
     protected override async Task OnInitializedAsync()
     {
         forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
-
-        await localStorage.SetItemAsync("name", "John Smith");
-        var name = await localStorage.GetItemAsync<string>("name");
     }
 
     private async Task Toggle(MouseEventArgs e, string id)
     {
         await JSRuntime.InvokeAsync<object>("toggleVisibility", id);
+    }
+
+    private async Task SubmitOrder(MouseEventArgs e, string type)
+    {
+        var newOrder = new OpenOrder();
+
+        name = await JSRuntime.InvokeAsync<string>("getRecipient");
+        newOrder.recipient = name + "'s";
+        newOrder.productName = type;
+        newOrder.day = DateTime.Today;
+
+        List<OpenOrder> openOrders = await localStorage.GetItemAsync<List<OpenOrder>>("tests");
+
+        openOrders.Add(newOrder);
+
+        await localStorage.SetItemAsync("openOrders", openOrders);
+
+        NavigationManager.NavigateTo("/");
     }
 
     public class WeatherForecast
