@@ -1,6 +1,10 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
+      "hash": "sha256-J9TSWXigooGb+fEnncVdFuj6SELM47vT\/6atUOfWdVA=",
+      "url": "_content\/BlazorPro.Spinkit\/spinkit.min.css"
+    },
+    {
       "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
       "url": ".nojekyll"
     },
@@ -97,7 +101,7 @@
       "url": "images\/switchel_logo.png"
     },
     {
-      "hash": "sha256-Cw+pMhHXeof7wSv3ksSxVX7ZEEH+JyazZNelCPxiqqM=",
+      "hash": "sha256-jQBqxwgPEWPqlqSVuBMyc94NgjcoWk1c513\/m2CCBIQ=",
       "url": "index.html"
     },
     {
@@ -125,7 +129,7 @@
       "url": "_redirects"
     },
     {
-      "hash": "sha256-BmrX0a5\/+wMWQXuK5ByinYIjYehaP\/uA73ELW67SV5Q=",
+      "hash": "sha256-27E\/FMELDnDpdfk1wwZrI4KLVb05Wny6X7FXAoyUfq8=",
       "url": "_framework\/_bin\/Switchel_PWA.dll"
     },
     {
@@ -253,6 +257,22 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
+      "hash": "sha256-ldy4keIJ0nBW2BNTobib50TbEBWstZkhOQMJ5PN+CXU=",
+      "url": "_framework\/_bin\/BlazorPro.Spinkit.dll"
+    },
+    {
+      "hash": "sha256-9VqqASjMRw8LX9vNXRKXBE+XlDpUfTeuo4+CPgg1fQE=",
+      "url": "_framework\/_bin\/BlazorComponentUtilities.dll"
+    },
+    {
+      "hash": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
+      "url": "_framework\/_bin\/Microsoft.AspNetCore.Components.dll"
+    },
+    {
+      "hash": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
+      "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "hash": "sha256-bSgsT2x5xMvs8mara5wU+EJwcyHa9GVMU85HwhWcdWM=",
       "url": "_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll"
     },
@@ -267,14 +287,6 @@
     {
       "hash": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=",
       "url": "_framework\/_bin\/System.ComponentModel.DataAnnotations.dll"
-    },
-    {
-      "hash": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
-      "url": "_framework\/_bin\/Microsoft.AspNetCore.Components.dll"
-    },
-    {
-      "hash": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
-      "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "hash": "sha256-LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=",
@@ -337,7 +349,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-FEnB37Se+7m5Psn22Jt929eYamc3\/8b8xMGK\/LemibY=",
+      "hash": "sha256-jbPgv+4WeahmeUCIvp059YKBTdm5tZOHJsLB+CCYuB0=",
       "url": "_framework\/_bin\/Switchel_PWA.pdb"
     },
     {
@@ -357,9 +369,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-VO6B\/DKMwZD1booMgOR+qZvKt0ncwlxPoFs3rqtzM9s=",
+      "hash": "sha256-McDt8HilroyDWQZuF9YcWF3yn0PlWsQFF+Xw2Wm3KBc=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "esd5r8hX"
+  "version": "JQ593hQA"
 };

@@ -1,3 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\Bobby's Ultrabook\source\repos\Switchel_PWA\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="C:\Users\rober\Source\Repos\Switchel_PWA\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/BlazorPro.Spinkit" Path="C:\Users\rober\.nuget\packages\blazorpro.spinkit\1.2.0\build\..\staticwebassets\" />
 </StaticWebAssets>

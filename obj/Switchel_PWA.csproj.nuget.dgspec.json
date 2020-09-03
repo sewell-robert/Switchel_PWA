@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\Switchel_PWA.csproj": {}
+    "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\Switchel_PWA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\Switchel_PWA.csproj": {
+    "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\Switchel_PWA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\Switchel_PWA.csproj",
+        "projectUniqueName": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\Switchel_PWA.csproj",
         "projectName": "Switchel_PWA",
-        "projectPath": "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\Switchel_PWA.csproj",
-        "packagesPath": "C:\\Users\\Bobby's Ultrabook\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bobby's Ultrabook\\source\\repos\\Switchel_PWA\\obj\\",
+        "projectPath": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\Switchel_PWA.csproj",
+        "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bobby's Ultrabook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +38,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "BlazorPro.Spinkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
             "Blazored.LocalStorage": {
               "target": "Package",
               "version": "[3.0.0, )"
