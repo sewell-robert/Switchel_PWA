@@ -1,49 +1,19 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\27E-FMELDnDpdfk1wwZrI4KLVb05Wny6X7FXAoyUfq8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\xJ-m_3_ZP7pyOYqS9oUI5v1fsq2HLJvQsY7NqGq1f08=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Switchel_PWA.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Switchel_PWA.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Net.Http.Json.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Net.Http.Json.dll.gz"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EvpEsBvtG_waigrNxBLhSDfmcbAvFgHiZlHNTOOika0=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Console.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Console.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Buffers.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Buffers.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\mscorlib.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.Extensions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.Extensions.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Memory.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Memory.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Json.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.CompilerServices.Unsafe.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OBWh2or_2mU6elwqPfmL72FBZVKl2WzTJ4L-IrKeXM4=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.AsyncInterfaces.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.gz"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tjbh51aVu1kTNULze_ql74GraZd0WcTaq28VNttAPKA=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash",
@@ -69,6 +39,16 @@
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ob5gN-szfb1CwWnyQWvWvuid3u4df593KvZeoJQEaKc=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\WebAssembly.Net.WebSockets.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/WebAssembly.Net.WebSockets.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-cPXlNTX8GKF-lIn-2DIjtxTe0Wpy4ZDcyAj67b6JYk=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Memory.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Memory.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\mscorlib.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/mscorlib.dll.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6XMT1eT3svGdg6hFzAHJscYdTQjakoYccYTdHmKSr7Y=.hash",
@@ -146,6 +126,81 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Data.dll.gz"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7HG5v7n2UCQe77B3OU0_JjYxmiqNhfVJ9C3tTCRLG7o=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Configuration.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Configuration.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oOs3TcAJ2wj906SGPhgxRQmBMVPHpar8ytlipH7MqYQ=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.Binder.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Binder.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1T9tyZDZIAxKTpjY0la-wOldY8VPnH6edD95RC80r2E=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ylX7VKoH7433xA_yHLYr6lPOuhCKV4qhw7GLUx6J82E=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pRtwEG4YCSmOnEuTEaai7Y7eymTJuUmXtCF3JK4u6E4=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.ConfigurationExtensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\CNukDMTMsZ77nI593UgjfZkJqNhgDLvnpUjL2QzFL2M=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Pv0bA_gEl_gycgBRmD7__LIzBA66qcH_b7G5FecHyVY=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\82ZFUNQ-lINILPY15Gjhju9hI7B2BXjHEQQDTeXhVek=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gvKHi9toHG8QIQVxMYdBMoUZdhhpivawq-rZEmTaSkI=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\woXzLY7bKAonfaX3WRGOcU27gyvyyzyQmcAipiTAcNQ=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Json.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Buffers.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Buffers.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EcDo-GQZkQrOT1Xd0jMPE3NwT5lsMq5DNsPxHVidLDQ=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.Extensions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.Extensions.dll.gz"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Numerics.Vectors.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.Vectors.dll.gz"
@@ -156,9 +211,254 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Bs1Wrmh4ex9dTEIT0yCRF52N-wOmsBDt457BHr0-ssM=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\X50zVT8lt2JVp7d7UtVE0MNKWDz9KEtoNYPIRM91gA0=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.EntityFrameworkCore.Cosmos.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.Cosmos.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jwuU8F7rNVOmV_vsvTYo3KNLtZkkSHB9wtU8kiR5Pqc=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EgI54utAG8-FzG3MEe0rzng4UdnK_GAS1_T5G6CzXfk=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.HashCode.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.HashCode.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\GViDVnAQuA8FMpwwB-9uaspcQefOSU1hpfK4bC07Eds=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Newtonsoft.Json.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Newtonsoft.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ubyINHXDmWOAugBDEb8CCz_uV68eordXiYDxpUeRBvg=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.CSharp.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.CSharp.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\z8iFDTIYfU-3d7Ovx4YrLVKTe9yU9vK9m4VWuqBMIqw=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Encoding.Extensions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encoding.Extensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Pt0gKZW54C_3DsLw_QRTQSP_ycXbOGSm2UWYSNZZYQ0=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Primitives.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fFIyhWRt3TsR3191q2WtKgMNr3s-jNNnO4P5rrUojjA=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Extensions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Extensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mzuLugvmIOgYjOk4f3eQas5TIH2wER7oBvjOd1j22ps=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1FBfAreOfbXDp0WA294BCrk0EIa5ZqlghOuvDlqFtk8=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.Extensions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Extensions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wDPt-zh9xGop_Vp7dKTGGcT9bZIAatqQ-eQLhtASLgw=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Encoding.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encoding.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\D2VIDaJ4RXF137pOsLTaYr0PcOtsgKNcyohlYtciLZI=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Xml.ReaderWriter.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.ReaderWriter.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\YsVP1MH7elMIe4iUnDj_hJHfSvMWW8X4hzNlc2bvJ4k=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.RegularExpressions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.RegularExpressions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\iRJn1bctufxFpdvL9HsDYr8vyHJ43sN8tu_e9uvVEbs=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.ObjectModel.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ObjectModel.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KypsWhzq7xslp4YsPu9U2_wgm3YXsZR2ZUN4FgTVwZ0=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.Serialization.Formatters.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Serialization.Formatters.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\egPOud7Mcxx-20iAZiekEmazNYxAwi8HO1Z5_a4Ikww=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Linq.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9wi0kDjDIr2As0DGysE9JuDt-uTnuiip7mf4UlXg_BI=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Linq.Expressions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Linq.Expressions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Bb8JHOjtpvbZWsd86j5fo-YwXYSlTxedlPo9_RxSlLk=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Dynamic.Runtime.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Dynamic.Runtime.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\RdBPwqgnAdTg7p1svJWuRNJXNqg0C-quM2upT5VUjCQ=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.TypeConverter.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.TypeConverter.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8Q_uKcqkDjFjcXfcYU073dQlKb5IRta-UHFtV3Tjz9s=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3o3XxHUixaHkHmaQFJjdobAN3Gi9Dv75TbqlrjclBBs=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.Serialization.Primitives.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Serialization.Primitives.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tFMMNru1KjM9tY0dph3potA-qlmOtgZOwHLp_imUF7Y=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Diagnostics.Debug.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.Debug.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dqzLPW8oFg5YVC2_79UXgMTdvPsrnepDLYkV0Ipnmbo=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4eZjhWp6rSxTu81oFjw5IocOeS7dQ0cijunLjlWelJA=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Globalization.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Globalization.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\zWDzFtXZzC_KLMGVRm7c4nLj3X7VnzT9SMdxCVqb3dE=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Collections.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rHD3sezK_6cfOkyVhvtSBCALBQVXDeV-bRvYAMuaJ4M=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Xml.XDocument.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.XDocument.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-4oTK8YMD6i_DybGa_zAJd12CkYFNAaS61OeLkwBPjA=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Xml.XmlDocument.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Xml.XmlDocument.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\B7BvGJ2-ydKv-0P7qxMYGB_Tvr6uewtxLpUhB-RCLsQ=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.Numerics.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.Numerics.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\CWadMXLl7iJZmsOz7PzKreH2b5rpyAFY8KYvg17YAv8=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.IO.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.IO.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6CpyRQAYrVPJfNYBKH0K9lWX_rNPO15lwNhGHPmvxtk=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\cl5aIZ_YHx5ImihF7EhMV7z4nF-i1gdvguFAqV97Nek=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Azure.Cosmos.Client.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Azure.Cosmos.Client.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6BS3nxdezehVx64APNi8XtiO3qSrQInQVe17Y9p7vsk=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Configuration.ConfigurationManager.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Configuration.ConfigurationManager.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\y4YoerBTT7H6WvxVXNVfZNc1wqXymv9JpcQDHz3pc4w=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.Cryptography.ProtectedData.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.Cryptography.ProtectedData.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\41TpUQyckiTriCG3V_aBcmQ1N7mU0abc1TlRA747tNs=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jKmbTXbScI0nBA2C2HyfK_smmH4oMUauprwnXZLolc4=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.Permissions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.Permissions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\NFuj-W4EdWMh3YIvij0lZeWdQJ7POvm-Tx3bcT2wyis=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Security.AccessControl.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Security.AccessControl.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\0yp9MzkU4cqdOlZE-9xos7a5MIsDE_k5CAMBzdJAE-Q=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Azure.Cosmos.Core.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Azure.Cosmos.Core.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\s6-5L4IL1YLg5f7hi0CLw24nTpEXF9yoX6ZKRNleSL8=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Azure.Cosmos.Serialization.HybridRow.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oKYd18-j_U8ASB-kpsbEnqHRcgcVgYmv7wZ7DbhCaqg=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Azure.Cosmos.Direct.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Azure.Cosmos.Direct.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jn-W0gQUemSfH2Jjn1HqrwruNu1qxVd6nZ9M6nSGvBs=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.EntityFrameworkCore.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.EntityFrameworkCore.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jjGP0wVk2GGgAqsUPcXB1YbX961KtZQMmiIO-c-rMSM=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Caching.Memory.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Caching.Memory.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1tRpRVrSk6J1iBH4cFKrg3N-QIYJVONgLbfNaliTLyI=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Caching.Abstractions.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\MyQpxJogZX2HZkOwjTQKfhArqV0-EJJxgpF-E_YjP2w=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Diagnostics.DiagnosticSource.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.DiagnosticSource.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Pts2S7BakHY8LACDy5I26bdgF2CrhSoTCirY4R-_sBE=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Collections.Concurrent.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Concurrent.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\g3D7CEj2L0Qctx7Es-Pvvvauld0RQjyo76PPB99L9Qk=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Diagnostics.Tracing.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Diagnostics.Tracing.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\U4q43ZeuBEBaCygKJwr18fjDYwnFv22MHuvMVqnpNzI=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Resources.ResourceManager.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Resources.ResourceManager.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\XAnEkn2DkDU-Xn588HKF6xZ5f3g9Eyzmw3DjEGtn2lM=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.InteropServices.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.InteropServices.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\s1jmIj8JETh0vdd88gHWMNG0z7TmzIpQxsIbEfd5XOI=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Collections.Immutable.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Collections.Immutable.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.Annotations.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.Annotations.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.DataAnnotations.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ldy4keIJ0nBW2BNTobib50TbEBWstZkhOQMJ5PN_CXU=.hash",
@@ -176,9 +476,9 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\GrEuW-8nz-PlrErOhC7EH59CYsEDP-HVc25wVkj1bc8=.hash",
+      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\DnsClient.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/DnsClient.dll.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
@@ -191,16 +491,6 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tmnkCmP9OzLUkpQ3LP7PRosi7gt5pyfEZCM6aqAokFI=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.Annotations.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.Annotations.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.DataAnnotations.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.gz"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.gz"
@@ -211,34 +501,9 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazored.LocalStorage.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Options.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Primitives.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.gz"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\n0Ag7rF7ZQamklPSZkakIXkRoa6JwlmPSS0cRaAhJQM=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2jNkt--JGfoqWNB8whRdJotnsanWbH3FfxZWz0gyLTs=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Configuration.Abstractions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Configuration.Abstractions.dll.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mQqyOIjuVduaLQ7ZyvDrChDLp8rTeQknIIWDzqsO4eY=.hash",
@@ -266,17 +531,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.FileProviders.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=.hash",
-      "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.gz"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jbPgv_4WeahmeUCIvp059YKBTdm5tZOHJsLB_CCYuB0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BQdhk5ku-KniJUo-M7M_AfZXs363T6rx22ZDMnALuVU=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Switchel_PWA.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Switchel_PWA.pdb.gz"
     },
@@ -301,12 +561,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\McDt8HilroyDWQZuF9YcWF3yn0PlWsQFF_Xw2Wm3KBc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\VG0XerfRkbYKDxVygtYdtw1HhtwhXyL7qkVfHWzu3To=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\CNetTPiDY3eLOSgIfm73ZVtylIGb4-0Ec3Y-Hs_THn8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vk5xVoEcwI965zdsprvOdwkUpz49TGwzUhxQKJvL-Eg=.hash",
       "Source": "C:\\Users\\rober\\Source\\Repos\\Switchel_PWA\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.gz"
     }

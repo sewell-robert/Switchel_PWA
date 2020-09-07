@@ -13,16 +13,13 @@
 
 <div class="card shadow">
     <div class="card-body">
-        <h4>Open Orders</h4>
+        <h4>Your Orders</h4>
         <hr />
-        @if (openOrders.Count > 1)
+        @if (isLoaded)
         {
-            foreach (var order in openOrders)
+            foreach (var order in ordersToDisplay)
             {
-                if (!string.IsNullOrWhiteSpace(order.recipient))
-                {
-                    <p>@order.recipient order for @order.productName was successfully submitted on @order.day!</p><br />
-                }
+                <p>Your order for @order.productName was received on @order.day!</p><br />
             }
         }
         else
@@ -36,19 +33,9 @@
 
 @code {
 
-    public class OpenOrder
-    {
-        public string recipient { get; set; }
-        public string productName { get; set; }
-        public DateTime day { get; set; }
-        public string status { get; set; }
-    }
+    public bool isLoaded = false;
 
-    List<OpenOrder> openOrders = new List<OpenOrder>();
-
-    OpenOrder test;
-
-    List<OpenOrder> tests = new List<OpenOrder>();
+    List<OpenOrder> ordersToDisplay = new List<OpenOrder>();
 
     protected async override Task OnAfterRenderAsync(bool firstRender)
     {
@@ -60,23 +47,25 @@
 
     protected override async Task OnInitializedAsync()
     {
-        if (await localStorage.GetItemAsync<List<OpenOrder>>("openOrders") ==  null)
+        try
         {
-            test = new OpenOrder();
-            test.recipient = " ";
-            test.productName = " ";
-            test.day = DateTime.Today;
+            var ordersFromLS = await localStorage.GetItemAsync<List<OpenOrder>>("Orders");
 
-            tests.Add(test);
+            if (ordersFromLS != null)
+            {
+                ordersToDisplay = ordersFromLS;
+                Console.WriteLine(ordersToDisplay[1].orderNumber);
 
-            await localStorage.SetItemAsync("openOrders", tests);
-            var openOrders = await localStorage.GetItemAsync<List<OpenOrder>>("openOrders");
+                isLoaded = true;
+            }
         }
-        else
+        catch (Exception ex)
         {
-            openOrders = await localStorage.GetItemAsync<List<OpenOrder>>("openOrders");
+            // TODO: build out error handling
         }
 
+        //Console.WriteLine("test");
+        //Console.WriteLine(ordersToDisplay.Count);
     }
 
 }

@@ -97,6 +97,69 @@ using BlazorPro.Spinkit;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using MongoDB.Driver;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using MongoDB.Driver.Core;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using MongoDB.Bson;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using Microsoft.Azure.Cosmos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 17 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using Microsoft.EntityFrameworkCore;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 18 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using Switchel_PWA.Classes;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 19 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using Microsoft.EntityFrameworkCore.Cosmos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 20 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using Microsoft.Extensions.Logging;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 21 "C:\Users\rober\Source\Repos\Switchel_PWA\_Imports.razor"
+using Switchel_PWA.Data;
+
+#line default
+#line hidden
+#nullable disable
     public partial class Spinner : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
